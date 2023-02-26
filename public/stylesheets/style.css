@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #000;
+  overflow-y: scroll;
+  background: #fdd2ab;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+header {
+  margin-bottom: 20px;
+  background: white;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about_head{
+  text-align: center;
+}
+.wrapper {
+  max-width: 970px;
+  overflow: hidden;
+  padding-left: 32px;
+  padding-right: 32px;
+  box-sizing: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#help {
+  text-align: center;
+}
+.email {
+  text-decoration: underline;
+}
+
+
+label {
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+      }
+
+li {
+  float: left;
+  line-height: 52px;
+
+}
+li a {
+  line-height: 52px;
+  display: block;
+  height: 52px;
+  color: #8c8a85;
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+a.logo {
+  background: url(../images/phones-logo.jpeg) no-repeat center center / cover;
+  color: transparent;
+  width: 95px;
+  height: 37px;
+  margin: 7px 0;
+  float: left;
+}
+
+ul.nv-l {
+  float: left;
+  margin-left: 20px;
+}
+
+ul.nv {
+  float: right;
+  margin-right: -10px;
+}
+.rt-wrapper {
+  margin-left: -20px;
+  margin-right: -44px;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+a.rt-href {
+  display: block;
+  position: relative;
+}
+
+.pr-t {
+  padding: 0 15px;
+  color: #1C76C8;
+  font-weight: 600;
+}
+
+a.add-b {
+  background: #1174CB;
+  color: white;
+  margin: 15px;
+  display: block;
+  font-weight: 600;
+  height: 37px;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 37px;
+}
+.nv-b {
+  background: white;
+  display: block;
+  border-radius: 5px;
+  overflow: auto;
+  padding: 0 19px;
+}
+.nv-g {
+  padding-right: 10px;
+  color: #666666;
+}
+.nv-b a.ac {
+  border-bottom: 2px solid #1174CB;
+  font-weight: 600;
+  color: #000;
+  height: 50px;
+}
+.nv-b a {
+  font-weight: 400;
+}
+.sh-c {
+  background: url(../images/mobile-phone.jpeg) no-repeat center 14px / 20px;
+  color: transparent;
+  height: 52px;
+  display: block;
+  margin-left: 10px;
+  width: 20px;
+}
+h1 {
+  font-size: 3em;
+  margin-top: 30px;
+}
+
+.ra-r {
+  margin-top: 20px;
+  overflow: auto;
+}
+
+.thumb-pr.r-e {
+  /* float: right; */ 
+  display: block;
+  height: 400px;
+  background: url(../images/mobile-phone.jpeg) no-repeat center center / cover;
+  width: 84%;
+  color: rgb(167, 52, 52);
+  font-weight: 600;
+  text-align: center;
+  font-size: 3em;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.tp {
+  height: 400px;
+}
+
+.bt {
+  margin-top: 20px;
+}
+a.thumb-pr.c {
+  background: url(../images/mobile-phone.jpeg)no-repeat center center / cover;
+  color: white;
+  margin: 0 20px;
+}
+a.thumb-pr.l {
+  background: url(../images/mobile-phone.jpeg) no-repeat center center / cover;
+  color: white;
+}
+
+a.thumb-pr.r {
+  background: url(../images/mobile-phone.jpeg) no-repeat center center / cover;
+  color: white;
+}
+p {
+  width: 500px;
+  font-size: 15px;
+}
+.artists-list {
+  margin-bottom: 10px;
+  float: left;
+  width: 29%;
+  padding: 4px 20px;
+}
+
+.container {
+  overflow: auto;
+  margin-top: 40px;
+}
+ 
+#submitButton {
+  margin-left: 40%;
+  width: 15%;
+  font-weight: 400;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+th {
+  padding-right: 4%;
+  margin-left: 10%;
+}
+td {
+  margin-right: 6%;
+  padding-right: 4%;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.report {
+  font-weight: bold;
+  color: black;
+}

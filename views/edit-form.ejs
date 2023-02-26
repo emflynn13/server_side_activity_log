@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <% include partials/head %>
+    <div class="wrapper">
+        <h1><%= title %></h1>
+        <div class="ra-r"></div>
+        <body>
+
+            <div style="margin:0 auto ; width:50%; padding:20px">
+              <form action="/usage/finishUpdate" method="post">
+                <input type="hidden" name="_id" value=<%=user._id%>>
+              <label>Name</label>
+              <input type="text" name="name" value= "<%=user.name %>" required>
+                <br /> <br /> <br /> <br />
+              <label>Duration of Educational Use</label>
+              <input type="text" name="educational" value= "<%=user.educational %>"required>
+                <br /> <br /> <br /> <br />
+                <label>Duration of Shopping</label>
+              <input type="text" name="shopping" value= "<%=user.shopping %>"required>
+                <br /> <br /> <br /> <br />
+                <label>Duration of Searching/Browsing</label>
+              <input type="text" name="browsing" value= "<%=user.browsing %>"required>
+                <br /> <br /> <br /> <br />
+                <label>Duration on Social Media</label>
+              <input type="text" name="socialMedia" value= "<%=user.socialMedia%>"required>
+              <br /> <br /> <br /> <br />
+              <label>Date</label>
+              <input id="dateID" type="date" name="date" value="<%=user.date%>">
+                <br /> <br /> <br /> <br />
+              <button id="submitButton">submit</button>
+                </form>
+              </div>
+            </body>
+    </div>
+</div>
+   <% include partials/foot %>
+ <footer>
+        <script>
+            document.getElementById('dateID').valueAsDate = new Date;
+        </script>
+    </footer>
+</html>
